@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: mongodb:7
+        image: thrivikramdevops/mongodb:v1
         imagePullPolicy: Always
         readinessProbe:
           tcpSocket:
