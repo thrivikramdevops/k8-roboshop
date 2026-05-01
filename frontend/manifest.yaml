@@ -96,7 +96,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: joindevops/frontend:v1
+        image: thrivikramdevops/frontend:v1
         imagePullPolicy: Always
         ports:
         - name: liveness-port
